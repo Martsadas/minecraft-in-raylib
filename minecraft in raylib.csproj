@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>minecraft_in_raylib</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LIBnoise" Version="0.2.0" />
+    <PackageReference Include="raylib-cs" Version="3.7.0" />
+    <PackageReference Include="simplexnoise" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
